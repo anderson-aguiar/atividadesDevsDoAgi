@@ -33,7 +33,7 @@ int clienteMaisAdiantado(double[][] pagamentos) – retorna o índice do cliente
         }
         int indice = clienteMaisAdiantado(valoresPagos);
         System.out.printf("\nO cliente %d pagou o maior valor - com total de R$%.2f", indice+1, somaTodos[indice]);
-
+        sc.close();
     }
     public static double totalPago(double[][] pagamentos, int cliente){
         double soma = 0;

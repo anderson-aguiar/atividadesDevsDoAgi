@@ -35,6 +35,7 @@ void imprimirExtratoClientes(double[][] saldos) – exibe todos os saldos por cl
         }
         System.out.println("--- Saldos de forma tabular ---\n");
         imprimirExtratoClientes(saldosClientes);
+        sc.close();
     }
 
     public static double saldoFinal(double[][] saldos, int cliente) {

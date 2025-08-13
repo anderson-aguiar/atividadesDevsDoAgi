@@ -24,6 +24,7 @@ int fundoMaisRentavel(double[][] fundos) – retorna o índice do fundo com maio
         }
         System.out.printf("A rentabilidade do fundo foi %.2f%%", rentabilidade(cotasFundos, fundo));
         System.out.printf("\nO fundo mais rentável foi o %dº.", fundoMaisRentavel(cotasFundos)+1);
+        sc.close();
     }
 
     public static double rentabilidade(double[][] fundos, int fundo) {
